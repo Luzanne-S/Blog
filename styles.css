@@ -1,0 +1,25 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  width: 100vw;
+}
+
+h2 {
+  font-family: "Yaldevi", sans-serif;
+}
+.about,
+.contact {
+  font-family: "Yaldevi", sans-serif;
+  padding-top: 7%;
+  list-style: none;
+  color: #6f544c;
+}
+
+a {
+  text-decoration: none;
+  color: #6f544c;
+}
+a:hover {
+  color: #6f544c;
+}
