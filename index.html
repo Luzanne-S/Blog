@@ -24,7 +24,8 @@
     <title>The Cocoa Bar</title>
   </head>
   <body>
-    <div class="uk-position-relative">
+    
+    <div class="uk-position-relative header">
       <img class="main" src="images/main.jpg" alt="chocolate bar" />
       <div class="uk-position-top">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
@@ -37,13 +38,140 @@
               <h2>the cocoa bar</h2>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li class="contact">
-                <a style="text-decoration: none" href="#">contact</a>
+                <a class="nav-link" style="text-decoration: none" href="#cta">contact</a>
               </li>
             </ul>
           </div>
         </nav>
+        <blockquote cite="#">
+    <p class="uk-margin-small-bottom">Anything is good if it's made of chocolate.</p>
+    <footer>Jo Brand </footer>
+</blockquote>
       </div>
+     <div class="uk-child-width-1-2@m images" uk-grid>
+    <div>
+      <h3 class="articleMain"> Articles</h3> 
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="images/hearts.jpg" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
     </div>
+    <div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Bottom</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+            <div class="uk-card-media-bottom">
+                <img src="images/soap.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<button class="uk-button uk-button-text moreArticles">More Articles</button>
+
+      <h3 class="recipeMain">Recipes</h3>
+    </div>
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin recipes" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        <img src="images/sauce.jpg" alt="" uk-cover>
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title">The Best Choloate Sauce</h3>
+            <p>This sauce is so good, you will want to put it on everything</p>
+        </div>
+        <a class="uk-button uk-button-default open" href="#modal-overflow" uk-toggle>Have a Look</a>
+
+<div id="modal-overflow" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">The Best Choloate Sauce</h2>
+        </div>
+
+        <div class="uk-modal-body" uk-overflow-auto>
+<ul>
+  <li>3 1/2 ounces dark chocolate, chopped</li>
+  <li>1/2 cup heavy cream</li>
+</ul>
+<ol>
+  <li>Place the chopped chocolate in a small bowl.
+</li>
+  <li>Warm the heavy cream in small saucepan. (Do not let it boil.) Pour the heavy cream over the chopped chocolate. Let it sit for 1 minute then stir to combine.</li>
+</ol>
+
+            
+        </div>
+
+     
+    </div>
+</div>
+    </div>
+</div>
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin recipes" uk-grid>
+ 
+    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+        <img src="images/popsickles.jpg" alt="" uk-cover>
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title">Fudgy Chocolate Popsickles</h3>
+            <p>There is nothing better than these popsickles on a hot day</p>
+        </div>
+       <a class="uk-button uk-button-default open" href="#modal-overflow" uk-toggle>Have a Look</a>
+
+<div id="modal-overflow" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Fudgy Chocolate Popsickles</h2>
+        </div>
+
+        <div class="uk-modal-body" uk-overflow-auto>
+
+           <ul>
+             <strong>For the chocolate popsicle:</strong>
+<li>2 cups of Whole Milk</li>
+<li>1 Cup of Heavy Cream</li>
+<li>4 Tbsp of Unsweetened Cocoa Powder</li>
+<li>3 Tbsp of Flour</li>
+<li>4 Tbsp of Granulated Sugar(or vanilla sugar)</li>
+<li>Pinch of Salt</li>
+<li>2oz of Semisweet Chocolate Chips</li>
+<br />
+<strong>For the chocolate hard shell:</strong>
+<li>2 cups of Semisweet chocolate Chips</li>
+<li>3 Tbsp of Coconut Oil</li>
+           </ul>
+           <ol><li> In a saucepan, add the milk, cream, cocoa powder, sugar, flour and salt, cook on low while constantly whisking until the mixture comes up to a boil (do not increase the heat or you will scorch the bottom) and thickens.</li>
+
+<li> Pour mixture through a sieve in a bowl over the chocolate chips, let sit for 20 seconds then whisk to melt and incorporate the chocolate chips, pour mixture into you popsicle molds and freeze until solid (I leave them overnight or a minimum of 6 hours).</li>
+
+ <li>When ready to serve, in a microwave safe bowl add the chocolate chips and coconut oil and melt until smooth. Dip or drizzle the popsicle in the melted chocolate mixture and immediately top with toppings of choice, they will set in just a few seconds so work fast!</li></ol>
+        </div>
+
+      
+
+    </div>
+</div> 
+    </div>
+</div>
+ <a href="Recipes.html"> 
+<button class="uk-button uk-button-text moreRecipes"  href="Recipes.html">More Recipes</button>
+</a>
+<footer id="cta">
     <div
       class="
         uk-height-medium
@@ -52,11 +180,12 @@
         uk-flex-middle
         uk-background-cover
         uk-light
+        footer
       "
       data-src="images/footer.jpg"
       uk-img
     >
-      <h3>the cocoa bar</h3>
+      <h3 class="logo">the cocoa bar</h3>
       
       <div class="social">
       <div class="social">
@@ -69,7 +198,7 @@
       </div>
     </div>
     <form>
-      <h4>Contact Me</h4>
+      <h4 class="contactMe">Contact Me</h4>
       <div class="uk-margin">
         <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Name">
     </div>   
@@ -80,5 +209,6 @@
         <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Message">
     </div><button class="uk-button uk-button-default uk-button-small">Submit</button>
   </form>
+  </footer>
   </body>
 </html>
