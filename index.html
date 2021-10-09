@@ -26,16 +26,33 @@
   <body>
     
     <div class="uk-position-relative header">
-      <img class="main" src="images/main.jpg" alt="chocolate bar" />
+      <img class="uk-align-center"src="images/assorted.jpg" alt="chocolate bar" />
       <div class="uk-position-top">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
           <div class="uk-navbar-center">
             <ul class="uk-navbar-item">
               <li class="about">
-                <a style="text-decoration: none" href="#">about</a>
+                <a style="text-decoration: none" href="#modal-sections"uk-toggle>about</a>
+
+
+<div id="modal-sections" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+           <h2 class="uk-modal-title">About Me</h2>
+           <div class="uk-width-auto">
+            <img class="uk-align-center uk-margin-remove-adjacent" src="images/profile.jpg" width="225" height="150" alt="Example image"></div>
+        </div>
+        <div class="uk-modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+       
+    </div>
+</div>
               </li>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <h2>the cocoa bar</h2>
+             <h1><span class="uk-text-background"></span>the cocoa bar</h1>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li class="contact">
                 <a class="nav-link" style="text-decoration: none" href="#cta">contact</a>
@@ -43,11 +60,16 @@
             </ul>
           </div>
         </nav>
+      </div>
+      <hr />
+      <section>       
         <blockquote cite="#">
-    <p class="uk-margin-small-bottom">Anything is good if it's made of chocolate.</p>
+    <p >Anything is good if it's made of chocolate.</p>
     <footer>Jo Brand </footer>
 </blockquote>
-      </div>
+</section>
+<hr/>
+   
      <div class="uk-child-width-1-2@m images" uk-grid>
     <div>
       <h3 class="articleMain"> Articles</h3> 
@@ -56,25 +78,84 @@
                 <img src="images/hearts.jpg" alt="">
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <h3 class="uk-card-title">Why Do We love Chocolate so much?</h3>
+                <p>Scientific reasoning behind our love for chocolate.</p>
+
             </div>
+            <a class="uk-button uk-button-default Read" href="#modal-overflow" uk-toggle>Read</a>
+
+<div id="modal-overflow" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Why Do We love Chocolate so much?</h2>
+        </div>
+
+        <div class="uk-modal-body" uk-overflow-auto>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            
+        </div>
+
+        
+
+    </div>
+</div>
         </div>
     </div>
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Bottom</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <h3 class="uk-card-title">Chocolate Body Products</h3>
+                <p>The surprising benefits of using chocolate on the body</p>
             </div>
+            <a class="uk-button uk-button-default Read" href="#modal-overflow" uk-toggle>Read</a>
+
+<div id="modal-overflow" uk-modal>
+    <div class="uk-modal-dialog">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Chocolate Body Products</h2>
+        </div>
+
+        <div class="uk-modal-body" uk-overflow-auto>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            
+        </div>
+
+       
+
+    </div>
+</div>
             <div class="uk-card-media-bottom">
                 <img src="images/soap.jpg" alt="">
             </div>
         </div>
     </div>
 </div>
-<button class="uk-button uk-button-text moreArticles">More Articles</button>
-
+<a href="Articles.html"> 
+<button class="uk-button uk-button-text uk-align-center moreArticles"href="Articles.html">More Articles</button>
+</a>
+<hr />
       <h3 class="recipeMain">Recipes</h3>
     </div>
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin recipes" uk-grid>
@@ -169,7 +250,7 @@
     </div>
 </div>
  <a href="Recipes.html"> 
-<button class="uk-button uk-button-text moreRecipes"  href="Recipes.html">More Recipes</button>
+<button class="uk-button uk-button-text uk-align-center moreRecipes"  href="Recipes.html">More Recipes</button>
 </a>
 <footer id="cta">
     <div
@@ -197,7 +278,7 @@
         
       </div>
     </div>
-    <form>
+    <form >
       <h4 class="contactMe">Contact Me</h4>
       <div class="uk-margin">
         <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Name">
