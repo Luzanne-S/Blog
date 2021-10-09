@@ -3,17 +3,17 @@ body {
 }
 .header {
   height: 50%;
-}
-.main {
-  width: 100vw;
-  margin-bottom: 5%;
-  height: 95vh;
-}
-.footer {
-  margin-top: 10%;
+  object-fit: contain;
 }
 
-h2 {
+blockquote {
+  position: relative;
+  right: 35%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h1 {
   font-family: "Yaldevi", sans-serif;
 }
 
@@ -21,6 +21,7 @@ h2 {
 .moreArticles {
   margin-left: 42%;
   margin-top: 3%;
+  margin-bottom: 4%;
 }
 .recipeMain {
   margin-left: 45%;
@@ -65,11 +66,20 @@ blockquote {
 
 .images {
   margin: auto;
+  margin-top: 3%;
   width: 50%;
-  height: 20%;
+  height: 10%;
 }
 .recipes {
   margin: auto;
   width: 60%;
   height: 20%;
+}
+.Read {
+  margin-left: 25%;
+  margin-bottom: 4%;
+}
+hr {
+  margin: auto;
+  width: 60%;
 }
