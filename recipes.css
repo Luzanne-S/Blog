@@ -1,9 +1,28 @@
 h1 {
   text-align: center;
+  margin-bottom: 5%;
+  padding-top: 5%;
 }
 
 .recipe {
   margin: auto;
 
   width: 80%;
+}
+.button {
+  margin-left: 25%;
+}
+.footer {
+  margin-top: 10%;
+}
+.logo {
+  padding-bottom: -25%;
+  padding-right: 5%;
+}
+.social {
+  margin-bottom: -6%;
+  margin-left: -14%;
+}
+form {
+  margin-left: 10%;
 }
