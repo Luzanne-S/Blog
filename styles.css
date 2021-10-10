@@ -19,7 +19,7 @@ h1 {
 
 .moreRecipes,
 .moreArticles {
-  margin-left: 42%;
+  margin: auto;
   margin-top: 3%;
   margin-bottom: 4%;
 }
@@ -52,6 +52,7 @@ a:hover {
 .social {
   margin-bottom: -6%;
   margin-left: -14%;
+  color: black;
 }
 form {
   margin-left: 10%;
@@ -82,4 +83,19 @@ blockquote {
 hr {
   margin: auto;
   width: 60%;
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+
+  form {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  form {
+    padding: 20px;
+  }
 }
