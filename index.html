@@ -11,10 +11,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.5/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.5/dist/js/uikit-icons.min.js"></script>
-    <link rel="stylesheet" href="uikit.min.css" />
+   
     <link rel="stylesheet" href="styles.css" />
-    <script src="jquery.js"></script>
-    <script src="uikit.min.js"></script>
+ <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+   
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -271,25 +275,28 @@
       <div class="social">
       <div class="social">
       
-        <a href="" class="uk-icon-button" uk-icon="instagram"></a
-        ><a href="" class="uk-icon-button" uk-icon="tiktok"></a
-        ><a href="" class="uk-icon-button" uk-icon="facebook"></a
-        ><a href="" class="uk-icon-button" uk-icon="youtube"></a>
+        <a href="" uk-icon="instagram"></a
+        ><a href=""  uk-icon= "tiktok"></a
+        ><a href=""  uk-icon="facebook"></a
+        ><a href="" uk-icon="youtube"></a>
         
       </div>
     </div>
-    <form >
+    <form id="contactForm" onSubmit="return handle_form_submission()" >
       <h4 class="contactMe">Contact Me</h4>
       <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Name">
+        <input class="uk-input uk-form-width-medium uk-form-small" type="text" name="name" id="name" placeholder="Name">
+        
     </div>   
     <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Email Address">
+        <input class="uk-input uk-form-width-medium uk-form-small" type="email" name="email" id="email" placeholder="Email Address">
+        <div class="error"></div>
     </div> 
     <div class="uk-margin">
         <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Message">
-    </div><button class="uk-button uk-button-default uk-button-small">Submit</button>
+    </div><button class="uk-button uk-button-default uk-button-small" id="btn"type="submit">Submit</button>
   </form>
   </footer>
+  
   </body>
 </html>
