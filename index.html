@@ -285,15 +285,15 @@
     <form id="contactForm" onSubmit="return handle_form_submission()" >
       <h4 class="contactMe">Contact Me</h4>
       <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="text" name="name" id="name" placeholder="Name">
+        <input class="uk-input uk-form-width-medium uk-form-small" type="text" name="name" required id="name" placeholder="Name">
         
     </div>   
     <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="email" name="email" id="email" placeholder="Email Address">
+        <input class="uk-input uk-form-width-medium uk-form-small" type="email" name="email"required id="email" placeholder="Email Address">
         <div class="error"></div>
     </div> 
     <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Message">
+        <input class="uk-input uk-form-width-medium uk-form-large" type="text" required placeholder="Message">
     </div><button class="uk-button uk-button-default uk-button-small" id="btn"type="submit">Submit</button>
   </form>
   </footer>
