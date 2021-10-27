@@ -26,6 +26,8 @@
   </head>
   <body>
     <h1>Recipes</h1>
+    
+    <!--Recipes-->
     <div
       class="
         uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin
@@ -34,7 +36,7 @@
       uk-grid
     >
       <div class="uk-card-media-left uk-cover-container">
-        <img src="images/choc_cake.jpg" alt="" uk-cover />
+        <img src="images/choc_cake.jpg" alt="white chocolate cake" uk-cover />
         <canvas width="600" height="400"></canvas>
       </div>
       <div>
@@ -167,7 +169,7 @@
       uk-grid
     >
       <div class="uk-card-media-left uk-cover-container">
-        <img src="images/choc_cherry.jpg" alt="" uk-cover />
+        <img src="images/choc_cherry.jpg" alt="chocolate cherry tartlets" uk-cover />
         <canvas width="600" height="400"></canvas>
       </div>
       <div>
@@ -300,7 +302,7 @@
       uk-grid
     >
       <div class="uk-card-media-left uk-cover-container">
-        <img src="images/three_layer_cake.jpg" alt="" uk-cover />
+        <img src="images/three_layer_cake.jpg" alt="three chocolate cake" uk-cover />
         <canvas width="600" height="400"></canvas>
       </div>
       <div>
@@ -425,44 +427,56 @@
         </div>
       </div>
     </div>
-    <footer>
-    <div
-      class="
-        uk-height-medium
-        uk-flex
-        uk-flex-center
-        uk-flex-middle
-        uk-background-cover
-        uk-light
-        footer
-      "
-      data-src="images/footer.jpg"
-      uk-img
-    >
-      <h3 class="logo">the cocoa bar</h3>
+    
+    <!--Footer-->
+    <footer id="cta">
+      <div
+        class="
+          uk-height-medium
+          uk-flex
+          uk-flex-center
+          uk-flex-middle
+          uk-background-cover
+          uk-light
+          footer
+        "
+        data-src="images/pexels-polina.jpg"alt="chocolate bars"
+        uk-img
+      >
       
-      <div class="social">
-      <div class="social">
-      
-        <a href=""  uk-icon="instagram"></a
-        ><a href=""  uk-icon="tiktok"></a
-        ><a href=""  uk-icon="facebook"></a
-        ><a href=""  uk-icon="youtube"></a>
-        
-      </div>
-    </div>
-    <form>
-      <h4 class="contactMe">Contact Me</h4>
+      <form id="contactForm" onSubmit="return handle_form_submission()">
+        <h4 class="contactMe"  >Contact Me</h4>
+        <div class="uk-margin">
+          <input class="uk-input uk-form-width-medium uk-form-small" type="text" name="name" required id="name" placeholder="Name">
+          
+      </div>   
       <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Name">
-    </div>   
-    <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Email Address">
-    </div> 
-    <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Message">
-    </div><button class="uk-button uk-button-default uk-button-small">Submit</button>
-  </form>
-  </footer>
+          <input class="uk-input uk-form-width-medium uk-form-small" type="email" name="email"required id="email" placeholder="Email Address">
+          <div class="error"></div>
+      </div> 
+      <div class="uk-margin">
+          <input class="uk-input uk-form-width-medium uk-form-large" type="text" required placeholder="Message">
+      </div><button class="uk-button uk-button-default uk-button-small" id="btn"type="submit"   >Submit</button>
+    </form>
+    <div class="col">
+    <h4 class="logo"  >the cocoa bar</h4>  
+    <div class="social1">
+    <div class="social">
+    
+      <a href=""   uk-icon="instagram"></a
+      ><a href=""    uk-icon= "tiktok"></a
+      ><a href=""    uk-icon="facebook"></a
+      ><a href=""   uk-icon="youtube"></a>
+   
+    </div>
+  </div>
+  </div>
+    </footer>
+    <!--unsplash images 
+   American Heritage - https://unsplash.com/photos/vdx5hPQhXFk
+                      https://unsplash.com/photos/5K5Nc3AGF1w
+   Bruna Branco - https://unsplash.com/photos/6k1PJQpzFQo
+
+    -->
   </body>
 </html>
