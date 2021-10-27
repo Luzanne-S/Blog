@@ -4,6 +4,7 @@ body {
 .header {
   height: 50%;
   object-fit: contain;
+  margin-top: 2%;
 }
 
 blockquote {
@@ -39,8 +40,8 @@ h1 {
   color: #6f544c;
 }
 .logo {
-  padding-bottom: -25%;
-  padding-right: 5%;
+  padding-top:5%;
+  
 }
 a {
   text-decoration: none;
@@ -49,13 +50,20 @@ a {
 a:hover {
   color: #6f544c;
 }
+
 .social {
-  margin-bottom: -6%;
-  margin-left: -14%;
-  color: black;
+  margin-bottom: -10%;
+  margin-left: 20%;
+
 }
 form {
+  text-align: center;
   margin-left: 10%;
+  padding-top:2%;
+ 
+}
+.col{
+ margin-left: 5%;
 }
 .open {
   margin-left: 30%;
@@ -88,6 +96,7 @@ hr {
 @media (max-width: 900px) {
   footer {
     flex-direction: column;
+  
   }
 
   form {
@@ -98,4 +107,6 @@ hr {
   form {
     padding: 20px;
   }
+
+
 }

@@ -14,13 +14,21 @@ h1 {
   margin-top: 10%;
 }
 .logo {
-  padding-bottom: -25%;
-  padding-right: 5%;
+  padding-top:5%;
+  
 }
+
 .social {
-  margin-bottom: -6%;
-  margin-left: -14%;
+  margin-bottom: -10%;
+  margin-left: 20%;
+
 }
 form {
+  text-align: center;
   margin-left: 10%;
+  padding-top:2%;
+ 
+}
+.col{
+ margin-left: 5%;
 }
