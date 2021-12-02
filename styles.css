@@ -76,7 +76,7 @@ blockquote {
 .images {
   margin: auto;
   margin-top: 3%;
-  width: 50%;
+  width: 60%;
   height: 10%;
 }
 .recipes {
@@ -96,17 +96,5 @@ hr {
 @media (max-width: 900px) {
   footer {
     flex-direction: column;
-  
-  }
-
-  form {
-    width: 50%;
-  }
-}
-@media (max-width: 425px) {
-  form {
-    padding: 20px;
-  }
-
-
+  }  
 }
